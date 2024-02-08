@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry Form</title>
+    <style>
+        h3{
+            text-align: center;
+            background-color: #a9c5e7;
+            margin: 0%;
+            padding: 10px;
+        }
+        table,thead,tbody,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        body{
+            
+            margin: 0%;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #b4c5da;
+            }
+            h1{
+                text-align: center;
+                margin: 0%;
+            }
+            h6{
+                margin: 0%;
+                text-align: center;
+                color: white;
+                
+            }
+            div{
+                background-color: rgba(45, 81, 226, 0.885);
+            }
+            form{
+                background-color: #a9c5e7;
+                margin: 0%;
+            }
+            thead{
+                background-color: #6f9fd8;
+            }
+            tbody{
+                background-color: #8cb1;
+            }
+            h4{
+                background-color: #558dd1;
+                padding: 10px;
+            }
+           input[type="submit"]{
+            background-color: red;
+            height: 20px;
+            width: 55px;
+           }
+           input[type="submit"]:focus{
+            background-color: blue;
+           }
+           input[type="reset"]{
+            background-color: blue;
+           }
+           input[type="reset"]:focus{
+            background-color: red;
+           }
+           
+            
+        
+            </style>
+</head>
+<body>
+  <div>  <h1><span style="color: white;">Veda</span><span style="color: yellow;">IT</span></h1>
+    <h6>M O V E   A H E A D</h6> </div>
+    <h3>VedaIT Course Enquiry Form</h3>
+    <form>
+    <h4 style="margin: 0%;">Course Information: </h4><br>
+    
+        <label>Course of Interest: </label>
+        <input type="text" placeholder="Enter Course"><br><br>
+        <label>Desired Start Date: </label>
+        <input type="text" placeholder="Enter Date"><br><br>
+        <label>Mode of Training: </label>
+        <input type="radio" name="mode" value="Offline">Offline
+        <input type="radio" name="mode" value="Online">Online
+        <input type="radio" name="mode" value="Blended">Blended
+        <h4>Preffered Method of Communication: </h4>
+        <label>Preffered Contact Method: </label>
+        <input type="checkbox">Whatsapp
+        <input type="checkbox">Phone
+        <input type="checkbox">E-mail <br><br>
+        <label>Preffered Contact Time: </label>
+        <input type="checkbox">Morning
+        <input type="checkbox">Afternoon
+        <input type="checkbox">Evening 
+        <h4>Personal Information: </h4>
+        <label>Full Name: </label>
+        <input type="text" placeholder="Enter Your Full Name"><br><br>
+        <label>Father's/Guardian's Name: </label>
+        <input type="text" placeholder="Father/Guardian Name"><br><br>
+        <label>Email-Address: </label>
+        <input type="email" placeholder="Enter Your E-Mail"><br><br>
+        <label>Gender: </label>
+        <input type="radio" name="gender" value="M">M
+        <input type="radio" name="gender" value="F">F <br><br>
+        <label>DOB: </label>
+        <input type="date"> 
+        <label>Mobile No: </label>
+        <input type="number" placeholder="Enter Mobile Number">
+        <h4>Address Information: </h4>
+        <label>Present Address: </label>
+        <input type="text">
+        <br><br>
+        <label>City: </label>
+        <input type="text">
+        <label>State: </label>
+        <input type="text">
+        <label>Pin:</label>
+        <input type="text">
+        <h4>Educational Background: </h4>
+        <table>
+            <thead>
+                <tr>
+                    <td>Educational Qualification</td>
+                    <td>College</td>
+                    <td>Specialization</td>
+                    <td>Stream</td>
+                    <td>Year of Passing</td>
+                    <td>Percentage</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Post Graduation</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Graduation</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>10 + 2</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>10th</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                </tr>
+            </tbody>
+        </table>
+        <h4>Work Experience(If Applicable): </h4>
+        <input type="radio" name="work" value="Yes">Yes
+        <input type="radio" name="work" value="No">No
+        <h4>Additional Information: </h4>
+        <Label>How did you hear about VedaIT ? </Label>
+        <input type="text"> <br> <br>
+        <label>What are your specific learning goals ? </label>
+        <input type="text"><br><br>
+        
+        <center><input type="reset" value="reset">      <input type="submit" value="sumbit"></center>
+
+        <br><br>
+
+
+    </form>
+</body>
+</html>
